@@ -1,9 +1,11 @@
 def my_func(a):
+    f=[]
     for i in a:
-        print(i)
-    return a*3
+        f.append(i*3)
+        print(i*3)
+    return f
 
-d=["Ли","Кэт"]
+d=[5,7,9]
 b=my_func(d)
 print(b)
 
