@@ -1,14 +1,13 @@
 def my_func(a):
-    f=[]
+    l1 = []
     for i in a:
-        f.append(i*3)
-        print(i*3)
-    return f
+        l1.append(i*5)
+        print(l1)
+    return l1
 
-d=[5,7,9]
-b=my_func(d)
+
+d = [100, 200, 300]
+b = my_func(d)
 print(b)
-
-
 
 
